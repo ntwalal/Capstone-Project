@@ -1,0 +1,28 @@
+body {
+    background-color:azure;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-card {
+    background-color:lightcoral;
+    color:black;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto; /* centers card */
+    box-shadow: 0 8px 20px crimson;
+}
+.profile-img {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    background: black;
+    align-items:center;
+    justify-content: center;
+    margin: auto;
+}
